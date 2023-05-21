@@ -1,29 +1,91 @@
 # game
 
-## Project setup
+## Table of Contents
+
+- [Title](#title)
+- [Logo](#logo)
+- [Badges](#badges)
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Main Technologies](#main-technologies)
+- [Tests](#tests)
+- [Commits Rules](#commits-rules)
+- [Areas to Improve](#areas-to-improve)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [License](#license)
+
+## Title
+
+Card Memory Game
+
+## Logo
+
+![Game Logo](src/assets/logo.png)
+
+## Badges
+
+[![Build Status](https://travis-ci.com/kucherenko/card-memory-game.svg?branch=master)](https://travis-ci.com/kucherenko/card-memory-game)
+[![codecov](https://codecov.io/gh/kucherenko/card-memory-game/branch/master/graph/badge.svg)](https://codecov.io/gh/kucherenko/card-memory-game)
+
+## About
+
+This is a card memory game written in Vue.js.
+
+## Getting Started
+
+To get a local copy up and running follow these steps:
+
+1. Clone the repository
+```sh
+ git clone https://github.com/kucherenko/card-memory-game.git
 ```
+2. Install dependencies
+```sh
 yarn install
 ```
-
-### Compiles and hot-reloads for development
-```
+3. Run the app in development mode
+```sh
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Main Technologies
 
-### Run your unit tests
-```
+This project uses the following main technologies:
+
+- [Vue.js](https://vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Vuesax](https://lusaxweb.github.io/vuesax/)
+
+## Tests
+
+This project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-test-utils.vuejs.org/) for unit testing. To run the tests, use the following command:
+
+```sh
 yarn test:unit
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Commits Rules
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention for commits.
+
+## Areas to Improve
+
+Areas to improve include:
+
+1. Add more tests to increase test coverage.
+2. Implement a scoring system and save high scores.
+3. Add more card sets and difficulties.
+
+## Roadmap
+
+No current plans for future development.
+
+## Support
+
+For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

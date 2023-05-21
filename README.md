@@ -1,8 +1,42 @@
 # game
 
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Run your unit tests
+```
+yarn test:unit
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Card Memory Game
+
+![Game Logo](src/assets/logo.png)
+
+[![Build Status](https://travis-ci.com/kucherenko/card-memory-game.svg?branch=master)](https://travis-ci.com/kucherenko/card-memory-game)
+[![codecov](https://codecov.io/gh/kucherenko/card-memory-game/branch/master/graph/badge.svg)](https://codecov.io/gh/kucherenko/card-memory-game)
+
 ## Table of Contents
 
-- [Title](#title)
 - [Logo](#logo)
 - [Badges](#badges)
 - [About](#about)
@@ -14,10 +48,6 @@
 - [Roadmap](#roadmap)
 - [Support](#support)
 - [License](#license)
-
-## Title
-
-Card Memory Game
 
 ## Logo
 
@@ -51,8 +81,6 @@ yarn serve
 
 ## Main Technologies
 
-This project uses the following main technologies:
-
 - [Vue.js](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
 - [Vue Router](https://router.vuejs.org/)
@@ -71,8 +99,6 @@ yarn test:unit
 This project follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention for commits.
 
 ## Areas to Improve
-
-Areas to improve include:
 
 1. Add more tests to increase test coverage.
 2. Implement a scoring system and save high scores.

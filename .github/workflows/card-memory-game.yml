@@ -1,0 +1,31 @@
+name: Card Memory Game
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Dependencies
+      run: yarn install
+    - name: Lint and Fix
+      run: yarn lint
+    - name: Test
+      run: yarn test:unit
+    - name: Build
+      run: yarn build
+      env:
+        NODE_ENV: production
+
+    artifacts:
+      name: artifacts
+      paths:
+        - dist/
+      expire-in: 1 hour

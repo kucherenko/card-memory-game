@@ -69,7 +69,7 @@ No current plans for future development.
 
 ## Support
 
-For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
+For questions, issues, or feature requests, please contact the project creator.
 
 ## License
 

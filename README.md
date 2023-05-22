@@ -1,3 +1,33 @@
+# game
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Run your unit tests
+```
+yarn test:unit
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # Card Memory Game
 
 ![Game Logo](src/assets/logo.png)
@@ -40,6 +70,8 @@ yarn serve
 
 ## Main Technologies
 
+This project is built using:
+
 - [Vue.js](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
 - [Vue Router](https://router.vuejs.org/)
@@ -69,7 +101,7 @@ No current plans for future development.
 
 ## Support
 
-For questions, issues, or feature requests, please contact the project creator.
+For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
 
 ## License
 

@@ -7,7 +7,6 @@
 
 ## Table of Contents
 
-- [Badges](#badges)
 - [About](#about)
 - [Getting Started](#getting-started)
 - [Main Technologies](#main-technologies)

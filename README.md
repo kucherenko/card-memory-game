@@ -1,33 +1,3 @@
-# game
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 # Card Memory Game
 
 ![Game Logo](src/assets/logo.png)
@@ -37,7 +7,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Table of Contents
 
-- [Logo](#logo)
 - [Badges](#badges)
 - [About](#about)
 - [Getting Started](#getting-started)
@@ -48,15 +17,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - [Roadmap](#roadmap)
 - [Support](#support)
 - [License](#license)
-
-## Logo
-
-![Game Logo](src/assets/logo.png)
-
-## Badges
-
-[![Build Status](https://travis-ci.com/kucherenko/card-memory-game.svg?branch=master)](https://travis-ci.com/kucherenko/card-memory-game)
-[![codecov](https://codecov.io/gh/kucherenko/card-memory-game/branch/master/graph/badge.svg)](https://codecov.io/gh/kucherenko/card-memory-game)
 
 ## About
 

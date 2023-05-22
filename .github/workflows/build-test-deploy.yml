@@ -1,0 +1,38 @@
+name: Build, Test, and Deploy
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          yarn install
+
+      - name: Lint
+        run: |
+          yarn lint
+
+      - name: Test
+        run: |
+          yarn test:unit
+
+      - name: Build
+        run: |
+          yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          branch: gh-pages
+          folder: dist
+          token: ${{ secrets.GITHUB_TOKEN }}
+          cname: <your-custom-domain>

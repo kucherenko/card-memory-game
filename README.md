@@ -11,7 +11,7 @@
 - [Getting Started](#getting-started)
 - [Main Technologies](#main-technologies)
 - [Tests](#tests)
-- [Commits Rules](#commits-rules)
+- [Contributing](#contributing)
 - [Areas to Improve](#areas-to-improve)
 - [Roadmap](#roadmap)
 - [Support](#support)
@@ -19,7 +19,7 @@
 
 ## About
 
-This is a card memory game written in Vue.js.
+This is a card memory game written in Vue.js. Players can click on cards to flip them over and try and find the matching pairs before the timer runs out.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ To get a local copy up and running follow these steps:
 ```sh
 yarn install
 ```
-3. Run the app in development mode
+3. Start the app in development mode
 ```sh
 yarn serve
 ```
@@ -53,15 +53,17 @@ This project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-te
 yarn test:unit
 ```
 
-## Commits Rules
+## Contributing
 
-This project follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention for commits.
+If you would like to contribute to this project, please see our [contributing guidelines](CONTRIBUTING.md).
 
 ## Areas to Improve
 
-1. Add more tests to increase test coverage.
-2. Implement a scoring system and save high scores.
-3. Add more card sets and difficulties.
+1. Increase test coverage by adding more tests.
+2. Improve accessibility by adding ARIA tags and keyboard navigation support.
+3. Add a scoring system and save high scores.
+4. Add more card sets and difficulties.
+5. Implement multiplayer mode.
 
 ## Roadmap
 
@@ -69,8 +71,8 @@ No current plans for future development.
 
 ## Support
 
-For questions, issues, or feature requests, please contact the project creator.
+For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.

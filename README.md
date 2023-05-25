@@ -1,3 +1,33 @@
+# card-memory-game
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Run your unit tests
+```
+yarn test:unit
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 # Card Memory Game
 
 ![Game Logo](src/assets/logo.png)
@@ -62,6 +92,8 @@ This project follows the [Conventional Commits](https://www.conventionalcommits.
 1. Add more tests to increase test coverage.
 2. Implement a scoring system and save high scores.
 3. Add more card sets and difficulties.
+4. Improve accessibility for users with disability
+5. Add support for multiple languages
 
 ## Roadmap
 
@@ -69,7 +101,7 @@ No current plans for future development.
 
 ## Support
 
-For questions, issues, or feature requests, please contact the project creator.
+For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
 
 ## License
 

@@ -2,13 +2,26 @@
 
 ![Game Logo](src/assets/logo.png)
 
+[![Build Status](https://travis-ci.com/kucherenko/card-memory-game.svg?branch=master)](https://travis-ci.com/kucherenko/card-memory-game)
+[![codecov](https://codecov.io/gh/kucherenko/card-memory-game/branch/master/graph/badge.svg)](https://codecov.io/gh/kucherenko/card-memory-game)
+
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Main Technologies](#main-technologies)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## About
 
-This is a card memory game written in Vue.js. The game allows users to match pairs of cards on a game board. It has several levels of difficulty and a scoring system.
+This is a card memory game written in Vue.js.
 
 ## Getting Started
 
-To get started with the game, follow these steps:
+To get a local copy up and running follow these steps:
 
 1. Clone the repository
 ```sh
@@ -22,43 +35,36 @@ yarn install
 ```sh
 yarn serve
 ```
-4. Build the app for production
-```sh
-yarn build
-```
 
 ## Main Technologies
-
-The game uses the following main technologies:
 
 - [Vue.js](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
 - [Vue Router](https://router.vuejs.org/)
 - [Vuesax](https://lusaxweb.github.io/vuesax/)
 
-## Tests
+## Usage
 
-The project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-test-utils.vuejs.org/) for unit testing. To run the tests, use the following command:
+To play the game, click on the cards to flip them over. Match pairs to progress to the next level.
+
+## Testing
+
+This project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-test-utils.vuejs.org/) for unit testing. To run the tests:
 
 ```sh
 yarn test:unit
 ```
 
-## Areas to Improve
+## Contributing
 
-The following are areas of improvement for the game:
+We welcome contributions to the project. To contribute:
 
-1. Implement a more comprehensive scoring system that tracks time and moves taken to complete the game.
-2. Add additional card sets and difficulties.
-3. Optimize the game for mobile devices and smaller screens.
-
-## Roadmap
-
-There are currently no plans for future development.
-
-## Support
-
-For any questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
+1. Fork the repository.
+2. Create a new branch with a descriptive name. Example: features/implement-scoring-system
+3. Make your changes.
+4. Write tests and ensure existing tests pass.
+5. Squash your commits into a single commit with a descriptive message following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+6. Submit a pull request.
 
 ## License
 

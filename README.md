@@ -2,13 +2,28 @@
 
 ![Game Logo](src/assets/logo.png)
 
+[![Build Status](https://travis-ci.com/kucherenko/card-memory-game.svg?branch=master)](https://travis-ci.com/kucherenko/card-memory-game)
+[![codecov](https://codecov.io/gh/kucherenko/card-memory-game/branch/master/graph/badge.svg)](https://codecov.io/gh/kucherenko/card-memory-game)
+
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Main Technologies](#main-technologies)
+- [Tests](#tests)
+- [Commits Rules](#commits-rules)
+- [Areas to Improve](#areas-to-improve)
+- [Roadmap](#roadmap)
+- [Support](#support)
+- [License](#license)
+
 ## About
 
-This is a card memory game written in Vue.js. The game allows users to match pairs of cards on a game board. It has several levels of difficulty and a scoring system.
+This is a card memory game written in Vue.js.
 
 ## Getting Started
 
-To get started with the game, follow these steps:
+To get a local copy up and running follow these steps:
 
 1. Clone the repository
 ```sh
@@ -22,14 +37,8 @@ yarn install
 ```sh
 yarn serve
 ```
-4. Build the app for production
-```sh
-yarn build
-```
 
 ## Main Technologies
-
-The game uses the following main technologies:
 
 - [Vue.js](https://vuejs.org/)
 - [Vuex](https://vuex.vuejs.org/)
@@ -38,27 +47,30 @@ The game uses the following main technologies:
 
 ## Tests
 
-The project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-test-utils.vuejs.org/) for unit testing. To run the tests, use the following command:
+This project uses [Jest](https://jestjs.io/) and [vue-test-utils](https://vue-test-utils.vuejs.org/) for unit testing. To run the tests, use the following command:
 
 ```sh
 yarn test:unit
 ```
 
+## Commits Rules
+
+This project follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) convention for commits.
+
 ## Areas to Improve
 
-The following are areas of improvement for the game:
-
-1. Implement a more comprehensive scoring system that tracks time and moves taken to complete the game.
-2. Add additional card sets and difficulties.
-3. Optimize the game for mobile devices and smaller screens.
+1. Add more tests to increase test coverage.
+2. Implement a scoring system and save high scores.
+3. Add more card sets and difficulties.
+4. Add documentation for new features and fixes.
 
 ## Roadmap
 
-There are currently no plans for future development.
+No current plans for future development.
 
 ## Support
 
-For any questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
+For questions, issues, or feature requests, please contact the project creator at kucherenko.andrey@gmail.com.
 
 ## License
 

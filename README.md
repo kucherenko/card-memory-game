@@ -4,7 +4,7 @@
 
 ## About
 
-This is a card memory game written in Vue.js. The game allows users to match pairs of cards on a game board. It has several levels of difficulty and a scoring system.
+This is a memory game where you try to match pairs of cards.
 
 ## Getting Started
 
@@ -62,4 +62,5 @@ For any questions, issues, or feature requests, please contact the project creat
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+..

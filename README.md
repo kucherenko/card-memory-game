@@ -63,4 +63,6 @@ For any questions, issues, or feature requests, please contact the project creat
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-..
+
+**Deployment Instructions:**
+The instructions for deploying the game can be found in the [DEPLOYMENT.md](DEPLOYMENT.md) file.

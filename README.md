@@ -52,6 +52,10 @@ The following are areas of improvement for the game:
 2. Add additional card sets and difficulties.
 3. Optimize the game for mobile devices and smaller screens.
 
+### API Documentation
+
+The API documentation can be found here -  [API](documentation/API.md).
+
 ## Roadmap
 
 There are currently no plans for future development.
@@ -63,4 +67,3 @@ For any questions, issues, or feature requests, please contact the project creat
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-..
